@@ -1,0 +1,56 @@
+/* Step 4: Remove default margins and paddings from body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Step 5: Create table2 class with vertical spacing between rows */
+.table2 {
+    border-spacing: 0 20px;
+}
+
+/* Step 6: Create three classes for the boxes with background colors and center alignment */
+.box1 {
+    background-color: darkred;
+    text-align: center;
+}
+
+.box2 {
+    background-color: deeppink;
+    text-align: center;
+}
+
+.box3 {
+    background-color: brown;
+    text-align: center;
+}
+
+/* Step 7: Create box_text_color class for styling text inside boxes */
+.box_text_color {
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Step 8: Make <a> tags inherit color from parent when inside box_text_color containers */
+.box_text_color a {
+    color: inherit;
+}
+
+/* Step 9: Create td_image_cell class and style images within it */
+.td_image_cell {
+    width: 570px;
+}
+
+.td_image_cell img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Step 10: Style all paragraphs with Arial font, 16px size, and dark grey color */
+p {
+    font-family: Arial;
+    font-size: 16px;
+    color: #3d3d3d;
+}
